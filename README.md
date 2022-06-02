@@ -1,3 +1,14 @@
+### Introduction
+
+
+### TODO
+
+- [ ] protocol parsing
+
+- [ ] automated script
+
+- [ ] android, win, ubuntu deployment method
+
 ### gratitude
 
 * [Dreamacro/clash](https://github.com/Dreamacro/clash)
