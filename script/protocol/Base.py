@@ -52,19 +52,10 @@ class Base():
         self._type = _type
 
     def bs64_decode(self, content:str) -> str:
+        content = content.replace(self.type+'://', '')
         content = content.replace('-', '+')
         content = content.replace('_', '/')
         return base64.b64decode(content.encode()).decode()
 
-    def __init__(self, server:str, name:str,
-            port:int, _type:str) -> None:
-        '''
-        server: server address
-        name: server name
-        port: server port
-        _type: protocol type
-        '''
+    def __init__(self, _type:str) -> None:
         self.type = _type
-        self.server = server
-        self.name = name
-        self.port = port
