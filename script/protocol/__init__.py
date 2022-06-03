@@ -1,1 +1,2 @@
-from protocol.Base import Base
+from protocol.ss import SS
+
