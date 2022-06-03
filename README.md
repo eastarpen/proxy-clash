@@ -1,13 +1,14 @@
 ### Introduction
 
+### rules provider
 
 ### TODO
 
-- [ ] protocol parsing
+- [ ] 各协议解析 
 
-- [ ] automated script
+- [ ] 自动化脚本
 
-- [ ] android, win, ubuntu deployment method
+- [ ] 各平台部署方法
 
 ### gratitude
 
